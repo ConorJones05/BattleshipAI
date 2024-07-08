@@ -1,28 +1,32 @@
 # Battleship Game and AI Strategy
 
 ## Overview
-This Python script simulates a simplified version of the Battleship game and includes tools to analyze ship placements. The script also lays the foundation for implementing an AI that will find the best ship placements and develop optimal strategies for hitting other ships.
+This repository contains a Python script that simulates a simplified version of the Battleship game and provides tools to analyze ship placements. Additionally, it lays the groundwork for implementing an AI using OpenAI Gym to perform reinforcement learning analysis, aiming to find the best ship placements and develop optimal strategies for hitting other ships.
 
 ## Prerequisites
 - Python 3.x
-- Install required libraries using:
+- Required libraries:
   ```bash
-  pip install numpy
-  pip install sympy
-  pip install matplotlib
-  pip install datascience
+  pip install numpy sympy matplotlib datascience
   ```
 
 ## Usage
-1. Run the script by executing the following command:
-   ```bash
-   python battleship_game.py
-   ```
-2. The script will generate ship placements, test fairness of ship placements, and display a heatmap of ship placements.
+Run the script by executing the following command:
+```bash
+python battleship_game.py
+```
+This will generate ship placements, test the fairness of these placements, and display a heatmap of the placements.
 
 ## Code Explanation
-- The script utilizes the `numpy`, `random`, `sympy`, `matplotlib`, and `datascience` libraries.
-- The Battleship game is simulated with functions for horizontal and vertical ship placements, ship fairness testing, and distribution analysis.
-- Ship placements are analyzed for fairness using horizontal and vertical distribution testing.
-- The script generates a heatmap of ship placements on the game board.
-- The script sets the groundwork for future implementation of an AI that will find optimal ship placements and strategies for hitting other ships.
+- **Libraries Used:** `numpy`, `random`, `sympy`, `matplotlib`, `datascience`
+- **Game Simulation:** Functions for horizontal and vertical ship placements, ship fairness testing, and distribution analysis.
+- **Fairness Testing:** Ship placements are analyzed for fairness using horizontal and vertical distribution testing.
+- **Heatmap Generation:** The script generates a heatmap of ship placements on the game board.
+- **AI Implementation:** Sets the groundwork for future AI development using OpenAI Gym to find optimal ship placements and hitting strategies.
+
+## Future Work
+- Implementing an AI using OpenAI Gym to perform reinforcement learning analysis for the Battleship game.
+- Developing and testing various AI strategies for optimal gameplay.
+
+## Contributing
+Feel free to fork this repository, make improvements, and submit pull requests. All contributions are welcome!
